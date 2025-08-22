@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+
+# Data
+data/
+images/
+
+# Checkpoints and models (only keep final generator weights)
+*.pt
+*.pth
+!models/cgan_generator.pth
+
+Meti.pdf
+METI_Challenge2.ipynb
+synthetic_wtp_laptop_data.csv
