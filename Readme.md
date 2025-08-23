@@ -1,4 +1,4 @@
-# AI Handwritten Digit Generator
+# Handwritten Digit Generator
 
 This is an interactive web application that uses a **Conditional Generative Adversarial Network (cGAN)* to generate synthetic, realistic images of handwritten digits. Users can select a digit, choose how many images to create, and download the results
 
@@ -8,6 +8,10 @@ This is an interactive web application that uses a **Conditional Generative Adve
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab"/>
 </p>  
+
+## Live Demo
+
+Try out the live application [here](https://digit-generator-adarsh-nair.streamlit.app/).
 
 ## Application Preview
 
@@ -35,7 +39,7 @@ This is an interactive web application that uses a **Conditional Generative Adve
 | Framework  | Python 3.9+, PyTorch |
 | Dataset    | MNIST (torchvision)  |
 | UI         | Streamlit            |
-| Deployment | Local / Colab        |
+| Deployment | Streamlit        |
 
 ## Architecture
 
@@ -59,8 +63,8 @@ flowchart TD
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/my_digit_generator.git
-cd my_digit_generator
+git clone https://github.com/adarshnair04/Digit_Generator.git
+cd Digit_generator
 ```
 
 ### 2. Create Virtual Environment
@@ -103,8 +107,8 @@ It will open in your browser at `http://localhost:8501`.
 
 | Input Label | Generated Grid                 |
 | ----------- | ------------------------------ |
-| **3**       | ![3](screenshots/sample_3.png) |
-| **7**       | ![7](screenshots/sample_7.png) |
+| **2**       | ![3](screenshots/sample_2.png) |
+| **5**       | ![7](screenshots/sample_5.png) |
 
 ## Security Notes
 
